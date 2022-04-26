@@ -1,0 +1,6 @@
+# index:
+#     path: /
+#     controller: App\Controller\DefaultController::index:
+app_front_contact:
+    path: /
+    controller: App\Controller\FrontController::contact
