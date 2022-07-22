@@ -8,9 +8,9 @@ use Symfony\Component\Routing\Annotation\Route;
 
 class FrontController extends AbstractController
 {
-    /**
-    * @Route("/")
-    */
+     /**
+     * @Route("/", name="app_front_contact")
+     */
     public function contact(): Response
     {
         $number = random_int(0, 100);
